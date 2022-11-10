@@ -1,6 +1,4 @@
-// const Server = require('./server')
-// import { Server } from "./server.js"
+const contenedotProductos = require ('./models/daos/mongo/crudProductos.js')
 
-// function showProducts() {
-//     Server.readProducts()
-// }
+
+contenedotProductos.readProducts()
